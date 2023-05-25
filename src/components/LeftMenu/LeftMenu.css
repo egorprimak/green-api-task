@@ -1,0 +1,29 @@
+.left-menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    border-right: 1px solid #e9edef;
+    height: 100%;
+}
+
+.left-menu__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f2f5;
+    padding: 10px 16px;
+}
+
+.left-menu__profile {
+    display: flex;
+    align-items: center;
+}
+
+.left-menu__profile-link {
+    margin-left: 10px;
+}
+
+.left-menu__header, .new-chat-panel {
+    border-bottom: 1px solid #e9edef;
+}

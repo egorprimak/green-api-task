@@ -1,0 +1,12 @@
+.not-found {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: #ddd;
+}
+
+.code {
+    font-size: 148px;
+}

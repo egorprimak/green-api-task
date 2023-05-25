@@ -1,0 +1,45 @@
+.chat-card {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.chat-card:not(:last-child) {
+    border-bottom: 1px solid #e9edef;
+}
+
+.chat-card:hover {
+    background-color: #f0f2f5;
+}
+
+.chat-card_active {
+    background-color: #f0f2f5;
+}
+
+.chat-card__avatar {
+    padding: 10px 15px 10px 13px;
+}
+
+.chat-card__info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 15px;
+}
+
+.chat-card__top-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.chat-card__contact {
+    font-size: 16px;
+}
+
+.delete-button {
+    padding-right: 15px;
+    font-size: 16px;
+    color: #f00000;
+    cursor: pointer;
+}

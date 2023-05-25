@@ -1,0 +1,17 @@
+.new-chat-panel {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 8px 10px 12px;
+}
+
+.new-chat-panel__error {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.new-chat-panel__input {
+    margin-right: 15px;
+    margin-bottom: 10px;
+    width: 100%;
+}

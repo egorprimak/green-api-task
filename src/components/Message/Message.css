@@ -1,0 +1,25 @@
+.message-wrapper {
+    margin-bottom: 12px;
+    display: flex;
+}
+
+.message {
+    max-width: 500px;
+    word-break: break-all;
+    background-color: #d9fdd3;
+    box-shadow: 0 1px 1px rgba(124, 124, 124, 0.13);
+    padding: 6px 7px 8px 9px;
+    border-radius: 8px;
+}
+
+.message-wrapper_my {
+    justify-content: flex-end;
+}
+
+.message-wrapper_contact {
+    justify-content: flex-start;
+}
+
+.message-wrapper_contact > .message {
+    background-color: #fff;
+}
